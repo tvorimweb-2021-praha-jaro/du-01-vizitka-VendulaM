@@ -3,7 +3,6 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: rgb(211, 209, 209);
     margin: 0;
-    padding: 50px 15% 50px 15%;
     line-height: 2;
 }
 
@@ -15,4 +14,59 @@ img {
     width: 200px;
     float: left;
     margin: 20px 20px 20px 0;
+    border: 2px solid rgb(2, 2, 90);
+    border-radius: 10%;
 }
+
+header {
+    color:rgb(211, 209, 209);
+    background-color: rgb(2, 2, 90);
+    background-size: cover;
+    text-align: center;
+    min-height:5rem;
+    padding: 2rem;
+}
+
+section.kontakt {
+    padding: 2rem 30%;
+}
+
+section.omne {
+    padding: 2rem 20%;
+}
+
+ul {
+    text-align: center;
+    margin-left: -1rem;
+}
+
+ul li {
+    display: inline-block;
+    }
+
+ul li a, 
+.omne a {
+    margin-right: 1rem;
+    padding: 0.2rem 2rem;
+    background-color: rgb(182, 101, 92);
+    border-radius: 5px;
+    text-align: center;
+    color:rgb(211, 209, 209);
+    font-weight: bold;
+    text-decoration: none;
+        }
+
+.omne a {
+    display: inline-block;
+    margin-left: 35%;
+}
+
+header a:focus {
+    background-color: rgba(235, 26, 3, 0.575);
+}
+
+header a:hover,
+.omne a:hover {
+    background-color: rgba(80, 71, 70, 0.733);
+}
+
