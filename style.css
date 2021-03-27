@@ -4,12 +4,12 @@ body {
     background-color: rgb(211, 209, 209);
     margin: 0;
     padding: 50px 15% 50px 15%;
-    line-height: 200%;
+    line-height: 2;
 }
 
 a {
-    display: inline-block;
-    line-height: 300%;
+    display: block;
+    line-height: 3;
 }
 img {
     width: 200px;
